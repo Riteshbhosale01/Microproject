@@ -1,0 +1,238 @@
+/* @media (max-width: 768px) {
+    .navbar{
+        height: 30px;
+        padding: 0px;
+        gap:6;
+    }
+
+    #logo{
+        height:100px;
+      
+    }
+   .header{
+      margin:0px;
+      height:100px;
+      width:100%; 
+      border:none;
+   }
+   #Home{
+      margin:0px;
+      padding:0px;
+   }
+    .navbarlinks{
+        font-size:12px;
+        padding:0px;
+        margin:0;
+    }
+
+   #h1{
+      font-size:30px;
+   }
+   .para{
+      font-size:10px;;
+   }
+   .para2{
+      font-size:10px;;
+   }
+   .para25{
+       font-size:10px;
+   }
+   .divbody{
+      margin:20px;
+      margin-top:0px;
+      width:auto; 
+   }
+   .divbody2{
+      flex-wrap: wrap;
+   }
+    .images{
+      padding:5px;
+      margin-top:10px;
+      gap:5px;
+   }
+   .image{
+      height:200px;
+      width:200px;
+   }
+   .image2{
+    height:275px;
+    width:175px;
+   }
+   .point{
+      font-size:20px;
+   }
+   li{
+      font-size:10px;
+   }
+   figcaption{
+      font-size: 8px;
+   }
+  
+   .warli{
+      border-radius:5px;
+      height:100px;
+      width:125px;
+   }
+   .gond{
+        height: 100px;
+        border-radius:5px;
+        
+   }
+   .madhubani{
+      height:100px;
+      border-radius:5px;
+   }
+   .phad{
+      height:100px;
+      border-radius:5px;
+   }
+   .aboutus{
+      font-size:20px;
+   }
+   #creator{
+      font-size: 16px;
+   }
+   
+}  */
+
+/* FOR TABLETS */
+@media (max-width: 1024px){
+
+
+#h1{
+    font-size:45px;
+    text-align:center;
+}
+
+#logo{
+    height:120px;
+}
+
+.navbar{
+    flex-wrap:wrap;
+    height:auto;
+    padding:10px;
+    gap:10px;
+}
+
+.navbarlinks{
+    margin-right:10px;
+    font-size:18px;
+    padding:8px;
+}
+
+.divbody{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.divbody15{
+    flex-direction:column;
+    align-items:center;
+}
+
+.image{
+    width:80%;
+    height:auto;
+}
+
+.image2{
+    width:80%;
+    height:auto;
+}
+
+.images{
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.warli,.gond,.madhubani,.phad{
+    height:250px;
+}
+
+.point{
+    font-size:32px;
+}
+
+.para{
+    font-size:18px;
+    margin-left:0;
+}
+
+
+}
+
+/* FOR MOBILES */
+@media (max-width: 600px){
+
+
+.header{
+    height:auto;
+    padding:15px;
+}
+
+.header-content{
+    flex-direction:row;
+    gap:10px;
+}
+
+#h1{
+    font-size:32px;
+}
+
+#logo{
+    height:90px;
+}
+
+.navbar{
+
+    flex-direction:row;
+    align-items:center;
+}
+
+.navbarlinks{
+    font-size:18px;
+    margin-right:0;
+}
+
+.divbody,
+.divbody15{
+    flex-direction:column;
+    padding:10px;
+}
+
+.image,
+.image2{
+    width:100%;
+    height:auto;
+    margin:10px 0;
+}
+
+.images{
+    flex-direction:column;
+    align-items:center;
+}
+
+.warli,.gond,.madhubani,.phad{
+    width:90%;
+    height:auto;
+}
+
+.point{
+    font-size:26px;
+}
+
+.para{
+    font-size:16px;
+    padding:10px;
+}
+
+figcaption{
+    font-size:18px;
+}
+
+
+}
+
+   
