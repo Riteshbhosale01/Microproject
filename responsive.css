@@ -174,7 +174,7 @@
 
 
 .header{
-    height:auto;
+    height:100px;
     padding:15px;
 }
 
@@ -188,17 +188,18 @@
 }
 
 #logo{
-    height:150px;
+    height:80px;
 }
 
 .navbar{
-
     flex-direction:row;
     align-items:center;
 }
-
+#Home{
+    margin:0px;
+}
 .navbarlinks{
-    font-size:18px;
+    font-size:10px;
     margin-right:0;
 }
 
@@ -207,20 +208,21 @@
     flex-direction:column;
     padding:10px;
 }
-.para{
-   font-family: Arial;
+.divbody2{
+    margin: 20px 20px 20px; 
 }
+
+
 .image{
    height:auto;
    width:50%;
-   height:auto;
    margin:10px;
    border-radius:0%;
 
 }
 .image2{
-    width:50%;
-    height:auto;
+    width:40%;
+    height:80%;
     margin:10px;
     border-radius:0%;
 }
@@ -230,25 +232,53 @@
     align-items:center;
 }
 
-.warli,.gond,.madhubani,.phad{
-    width:90%;
+.warli,.madhubani{
+    width:70%;
     height:auto;
+    border-radius:0%;
+}
+.gond{
+   height: 200px;
+   border-radius:0%;
+}
+.phad{
+   height: 200px;
+   width:80%;
+   border-radius: 0%;
 }
 
 .point{
-    font-size:26px;
+    font-size:16px;
 }
 
 .para{
-    font-size:16px;
+    font-size:10px;
     padding:10px;
+    font-family: Arial;
 }
 
 figcaption{
-    font-size:18px;
+    font-size:16px;
 }
 
-
+.footer{
+    background-color: #023047;
+    color:white;
+    height:auto;
+    border:2px solid black;
+    font-size:40%;
+    font-family:Cambria;
+}
+#Aboutus{
+    text-align: center;
+    padding:0px;
+    margin:10px;
+    text-decoration: underline;
+    opacity: 0.6;
+}
+.creators{
+   font-size:70%;
+}
 }
 
    
