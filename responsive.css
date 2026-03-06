@@ -202,11 +202,16 @@
     padding:10px;
 }
 
-.image,
+.image{
+   height:auto;
+   width:50%;
+   height:auto;
+   margin:10px;
+}
 .image2{
-    width:100%;
+    width:50%;
     height:auto;
-    margin:10px 0;
+    margin:10px;
 }
 
 .images{
