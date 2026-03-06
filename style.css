@@ -122,14 +122,6 @@ a:hover{
    box-shadow: 0 4px 20px black;
 }
  
- .para2{
-    font-size:20px; 
-    padding:25px;
-    padding-top:10px;
-    font-weight: 500;
-    font-family: cursive;
-    text-decoration: none;
- }   
  .divbody15{
     height: auto;
    background-size: cover;
@@ -162,17 +154,6 @@ a:hover{
  }
  .image2:hover{
     transform:scale(1.1);
- }
-
- .para25{
-    font-size:20px;
-    margin-top:10px; 
-    margin-right:25px; 
-    margin-left:25px; 
-    padding:25px;
-    padding-top:10px;
-    font-weight: bold;
-    font-family: cursive;
  }
 
 

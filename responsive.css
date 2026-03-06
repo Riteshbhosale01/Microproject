@@ -126,6 +126,10 @@
     align-items:center;
     text-align:center;
 }
+.para{
+   font-family: Arial;
+   font-weight: bold;
+}
 
 .divbody15{
     flex-direction:column;
@@ -203,7 +207,9 @@
     flex-direction:column;
     padding:10px;
 }
-
+.para{
+   font-family: Arial;
+}
 .image{
    height:auto;
    width:50%;
