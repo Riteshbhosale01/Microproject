@@ -135,11 +135,13 @@
 .image{
     width:80%;
     height:auto;
+    border-radius:0%;
 }
 
 .image2{
     width:80%;
     height:auto;
+    border-radius:0%;
 }
 
 .images{
@@ -182,7 +184,7 @@
 }
 
 #logo{
-    height:90px;
+    height:150px;
 }
 
 .navbar{
@@ -207,11 +209,14 @@
    width:50%;
    height:auto;
    margin:10px;
+   border-radius:0%;
+
 }
 .image2{
     width:50%;
     height:auto;
     margin:10px;
+    border-radius:0%;
 }
 
 .images{
