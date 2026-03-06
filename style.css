@@ -93,8 +93,7 @@ blockquote{
  
 
 a:hover{
-    font-size:25px;
-    padding:10px;
+
     color:#9ed5fb;
 }
 
@@ -121,8 +120,7 @@ a:hover{
    border-radius:20px;
    padding:20px;
    box-shadow: 0 4px 20px black;
-  
-    }
+}
  
  .para2{
     font-size:20px; 
