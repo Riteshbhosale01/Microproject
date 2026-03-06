@@ -1,99 +1,3 @@
-/* @media (max-width: 768px) {
-    .navbar{
-        height: 30px;
-        padding: 0px;
-        gap:6;
-    }
-
-    #logo{
-        height:100px;
-      
-    }
-   .header{
-      margin:0px;
-      height:100px;
-      width:100%; 
-      border:none;
-   }
-   #Home{
-      margin:0px;
-      padding:0px;
-   }
-    .navbarlinks{
-        font-size:12px;
-        padding:0px;
-        margin:0;
-    }
-
-   #h1{
-      font-size:30px;
-   }
-   .para{
-      font-size:10px;;
-   }
-   .para2{
-      font-size:10px;;
-   }
-   .para25{
-       font-size:10px;
-   }
-   .divbody{
-      margin:20px;
-      margin-top:0px;
-      width:auto; 
-   }
-   .divbody2{
-      flex-wrap: wrap;
-   }
-    .images{
-      padding:5px;
-      margin-top:10px;
-      gap:5px;
-   }
-   .image{
-      height:200px;
-      width:200px;
-   }
-   .image2{
-    height:275px;
-    width:175px;
-   }
-   .point{
-      font-size:20px;
-   }
-   li{
-      font-size:10px;
-   }
-   figcaption{
-      font-size: 8px;
-   }
-  
-   .warli{
-      border-radius:5px;
-      height:100px;
-      width:125px;
-   }
-   .gond{
-        height: 100px;
-        border-radius:5px;
-        
-   }
-   .madhubani{
-      height:100px;
-      border-radius:5px;
-   }
-   .phad{
-      height:100px;
-      border-radius:5px;
-   }
-   .aboutus{
-      font-size:20px;
-   }
-   #creator{
-      font-size: 16px;
-   }
-   
-}  */
 
 /* FOR TABLETS */
 @media (max-width: 1024px){
@@ -136,7 +40,10 @@
     flex-direction:column;
     align-items:center;
 }
-
+.divbody,.divbody1,.divbody2{
+    margin: 20px 20px 20px; 
+    border-width:5px;
+}
 .image{
    height:auto;
    width:50%;
@@ -205,7 +112,7 @@
     margin:0px;
 }
 .navbarlinks{
-    font-size:10px;
+    font-size:12px;
     margin-right:0;
 }
 
@@ -214,8 +121,9 @@
     flex-direction:column;
     padding:10px;
 }
-.divbody2{
+.divbody,.divbody1,.divbody2{
     margin: 20px 20px 20px; 
+    border-width:5px;
 }
 
 
