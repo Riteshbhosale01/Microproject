@@ -18,7 +18,33 @@
             text-align: center;
             padding: 25px;
         }
+             .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:15px;        
+            padding-bottom:10px;
+            background-color: #F5CCF5;
+            flex-wrap:wrap;
+            height:auto;
+            padding:10px;
 
+}            
+        .navbarlinks{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            font-size :25px;
+            margin-right:70px;
+            padding:10px;
+            border-radius: 12px;
+            color:white;
+            text-decoration: none;
+            transition:.2s linear;
+}
+        .navbarlinks:hover{
+            color:#A300A3;
+        }
         nav {
             background-color: #F5CCF5;
             padding: 10px;
@@ -76,6 +102,18 @@
 <header>
     <h1>Bihu – The Traditional Folk Dance of Maharashtra</h1>
 </header>
+
+<div class="navbar">
+        <a class="navbarlinks" id="Home" href="index.html" > Home</a>
+        <a class="navbarlinks" href="index.html#Aboutus"> About Us</a>
+        <a class="navbarlinks" href="bhangra.html">Bhangra</a>
+        <a class="navbarlinks" href="bharatnatyam.html">Bharatnatyam</a>
+        <a class="navbarlinks" href="garba.html">Garba</a>
+        <a class="navbarlinks" href="vilasinatyam.html">Vilasi Natyam</a>
+        <a class="navbarlinks" href="ghoomar.html">Ghoomar</a>
+        <a class="navbarlinks" href="bihu.html">Bihu</a>
+        <a class="navbarlinks" href="lavni.html">Lavni</a>
+</div>
 
 <nav>
     <a href="#origin">Origin</a>
