@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Garba - Information Page</title>
+    <title>Lavni - Information Page</title>
 
     <style>
         body {
@@ -13,39 +13,45 @@
         }
 
         header {
-            background-color: #ffc300;
+            background-color: #8b0000;
             color: white;
             text-align: center;
             padding: 25px;
         }
-         .navbar{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap:15px;        
-            padding-bottom:10px;
-            background-color: #fddb50;
-            flex-wrap:wrap;
-            height:auto;
-            padding:10px;
+        .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px;
+    height:auto;
+    padding-top: 10px; 
+    padding-bottom:10px;
+    background-color: #8b0000;
 
-}            
-        .navbarlinks{
-            display:flex;
-            justify-content:space-between;
-            align-items: center;
-            font-size :25px;
-            margin-right:70px;
-            padding:10px;
-            border-radius: 12px;
-            color:white;
-            text-decoration: none;
-            transition:.2s linear;
+
 }
-        .navbarlinks:hover{
-            color:red;
+.navbarlinks{
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      font-size :25px;
+      font-family:Arial;
+      margin-right:70px;
+      padding:10px;
+      color:white;
+      text-decoration: none;
+}
+ 
+     .image{
+            margin: 30px;
+            transition:.3s linear;
         }
-
+        .image:hover{
+            transform:scale(1.1);
+        }
+.navbarlinks:hover{
+    color:#ff7575;
+}
         nav {
             background-color: #222;
             padding: 10px;
@@ -62,15 +68,6 @@
         nav a:hover {
             color: orange;
         }
-        .image{
-            margin: 30px;
-            border:2px solid black;
-            transition:.3s linear;
-        }
-        .image:hover{
-            transform:scale(1.1);
-        }
-
 
         section {
             padding: 30px;
@@ -97,16 +94,22 @@
             margin-left: 20px;
         }
 
+        footer {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Garba – The Traditional Folk Dance of Gujrat</h1>
+    <h1>Lavni – The Traditional Folk Dance of Maharashtra</h1>
 </header>
-
-
+        
 <div class="navbar">
         <a class="navbarlinks" id="Home" href="index.html" > Home</a>
         <a class="navbarlinks" href="index.html#Aboutus"> About Us</a>
@@ -115,10 +118,9 @@
         <a class="navbarlinks" href="garba.html">Garba</a>
         <a class="navbarlinks" href="vilasinatyam.html">Vilasi Natyam</a>
         <a class="navbarlinks" href="ghoomar.html">Ghoomar</a>
-        <a class="navbarlinks">Example 6</a>
-        <a class="navbarlinks">Example 7</a>
+        <a class="navbarlinks" href="bihu.html">Bihu</a>
+        <a class="navbarlinks" href="lavni.html">Lavni</a>
 </div>
-
 <nav>
     <a href="#origin">Origin</a>
     <a href="#music">Music & Instruments</a>
@@ -129,33 +131,31 @@
 <div class="container">
 
 <div style="text-align: center;">
-<img src="garba.webp"
-     class ="image" alt="Garba Performance"
-     width="500" height="450">
+<img class="image" src="lavni.avif"
+     alt="Lavni Performance"
+     width="600" height="400">
 
 
 
 <section id="origin">
-    <h2>Origin of Garba</h2>
+    <h2>Origin of Lavni</h2>
     <div class="info-box">
         <p>
-            Garba is a traditional folk dance from the Indian state of Gujarat. It is most popularly performed during the Hindu festival of Navratri, a nine-night celebration dedicated to the goddess Durga (also worshipped in forms like Amba or Shakti).
+           Lavni (also spelled Lavani) is a vibrant and expressive traditional dance and music form from the Indian state of Maharashtra. Known for its powerful rhythm, bold expressions, and captivating performances, Lavni has been a significant part of Marathi folk culture for centuries.
 
-Garba is both a devotional and social dance form that combines rhythmic clapping, circular movements, colorful attire, and vibrant music.
-        </p>
+       </p>
     </div>
 </section>
 
 <section id="music">
     <h2>Music and Instruments</h2>
     <div class="info-box">
-        <p>garba music is lively and energetic. The main instruments used are:</p>
+        <p>Lavni music is lively and energetic. The main instruments used are:</p>
         <ul>
             <li>Dhol (traditional drum)</li>
-            <li>Dholak</li>
-            <li>Tabla</li>
-            <li>Dandiya</li>
-            <li>Nagada</li>
+            <li>Dholaki</li>
+            <li>Manjeera (Cymbals)</li>
+            <li>Tuntuna</li>
             <li>Harmonium</li>
         </ul>
     </div>
@@ -165,15 +165,17 @@ Garba is both a devotional and social dance form that combines rhythmic clapping
     <h2>Traditional Costumes</h2>
     <div class="info-box">
         <p>
-            During Garba (especially in Navratri), people wear traditional dress of Gujarat.
+           Lavni Costume (In Short):
 
-Women:
-Chaniya Choli (long skirt, blouse, dupatta) with mirror work and heavy jewelry.
+Nauvari saree – 9-yard drape for easy movement
 
-Men:
-Kediyu (embroidered short kurta) with dhoti or churidar and a turban.
+Jewelry – Nath, necklaces, bangles, earrings, waist belt
 
-The clothes are colorful and comfortable for dancing.            
+Hair & Makeup – Bun with flowers, bold eye makeup, bindi
+
+Anklets (Ghungroo) – For rhythmic sound during dance
+
+Bright, traditional, and designed for expressive, energetic performances.
         </p>
     </div>
 </section>
@@ -182,13 +184,27 @@ The clothes are colorful and comfortable for dancing.
     <h2>Festivals and Occasions</h2>
     <div class="info-box">
         <p>
-          Garba is celebrated during the 9 days of Navratri, mainly in Gujarat.
+          Lavni is mainly performed during:
+
+Festivals – like Ganesh Chaturthi and local village fairs
+
+Tamasha Shows – folk theatre performances in villages and towns
+
+Cultural Events – state-level cultural programs and competitions
+
+Weddings & Social Gatherings – sometimes as entertainment
+
+Religious Celebrations – devotional Lavnis for temples or spiritual events
         </p>
     </div>
 </section>
 
 </div>
 
+
+<footer>
+    © 2026 Lavni Information Website | Maharashtra Culture
+</footer>
 
 
 </body>

@@ -89,12 +89,10 @@ blockquote{
       border-radius: 12px;
       color:white;
       text-decoration: none;
-      transition:.2s linear;
 }
  
 
-a:hover{
-
+.navbarlinks:hover{
     color:#9ed5fb;
 }
 
